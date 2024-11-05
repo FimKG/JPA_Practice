@@ -9,7 +9,11 @@ public class EmployeeEntity {
 	private Integer empId;
 	private String empName;
 	private Double empSalary;
-	
+
+	public EmployeeEntity() {
+		super();
+	}
+
 	public Integer getEmpId() {
 		return empId;
 	}

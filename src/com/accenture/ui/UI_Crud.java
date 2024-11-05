@@ -17,6 +17,7 @@ public class UI_Crud {
 		EmployeeEntity employeeEntity = new EmployeeEntity();
 		employeeEntity.setEmpName("Hloni");
 		employeeEntity.setEmpSalary(35000.00);
+
 		entityTransaction.begin();
 		entityManager.persist(employeeEntity);
 		entityTransaction.commit();
