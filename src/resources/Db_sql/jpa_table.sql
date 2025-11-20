@@ -19,6 +19,11 @@
 -- FROM jpa_db.user 
 -- WHERE user = 'root_user';
 
-CREATE USER 'root_user'@'localhost' IDENTIFIED BY 'root';
-GRANT ALL PRIVILEGES ON jpa_db.* TO 'root_user'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
+-- CREATE USER 'TO Delete'@'localhost' IDENTIFIED BY 'root';
+-- GRANT ALL PRIVILEGES ON jpa_db.* TO 'TO Delete'@'localhost' WITH GRANT OPTION;
+-- FLUSH PRIVILEGES;
+
+-- SELECT user, host FROM mysql.user;
+-- SELECT user, host FROM mysql.user WHERE user='root';
+
+select empName from employeeentity where empName = "Hloni"

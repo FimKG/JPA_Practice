@@ -3,7 +3,7 @@
 	<persistence-unit name="JPA_Practice">
         <!-- <provider>org.hibernate.ejb.HibernatePersistence</provider> -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-	    <class>com.acc.model.EmployeeEntity</class>
+	    <class>com.acc.model.EmployeEntity</class>
         <properties>
             <!-- Database Properties -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
