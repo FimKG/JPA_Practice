@@ -1,4 +1,4 @@
-package com.accenture.model.entity;
+package com.acc.model;
 
 import javax.persistence.*;
 
